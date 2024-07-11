@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./index.css">
+  <script src="https://kit.fontawesome.com/3ed0295f46.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <div id="logo">
+        <h2>MC</h2>
+      </div>
+      <div class="links">
+        <ul id="links-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+      <div class="card">
+        <img src="./Assets/Images/IMG_20200423_131602.JPG" alt="mike" class="img-avatar">
+        <div class="info">
+          <div>
+            <h1>Michael Chung</h1>
+            <h2>Web Developer</h2>
+          </div>
+          <div class="contact">
+            <div class="contact-buttons">
+              <button>Contact</button>
+              <button>Download CV</button>
+            </div>
+            <div id="socials">
+              <a href="https://github.com/MagikMaik" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/michaelchs/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div id="about">
+          <h1>About me</h1>
+          <div id="education">
+            <h2>Education</h2>
+            <h3>Le Wagon</h3>
+            <p>400+hours Web Developement Bootcamp</p>
+          </div>
+          <p>In the past, I worked as an Architect for 5 years in several architecture firms in Panama. Today I am studying to enter the world of Tech and become a Web Developer. I aspire to become a Full Stack Developer specializing in Front-end Development.
+          </p>
+        </div>
+        <img src="./Assets/Images/IMG_20200423_131602.JPG" alt="" class="img-about">
+      </div>
+      <div id="experience" class="card experience">
+        <h1>Experience</h1>
+        <div class="fullstack">
+          <div class="languages">
+            <img src="./Assets/Images/html.png" alt="">
+            <p>intermediate level</p>
+          </div>
+          <div class="languages">
+            <img src="./Assets/Images/css.png" alt="">
+            <p>intermediate level</p>
+          </div>
+          <div class="languages">
+            <img src="./Assets/Images/js.png" alt="">
+            <p>basic level</p>
+          </div>
+          <div class="languages">
+            <img src="./Assets/Images/rails.png" alt="">
+            <p>basic level</p>
+          </div>
+          <div class="languages">
+            <img src="./Assets/Images/react.png" alt="">
+            <p>basic level</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card projects" id="projects">
+        <h1>Projects</h1>
+        <div class="project-display">
+          <div class="project">
+            <h3>Buddfit Challenge</h3>
+            <img src="./Assets/Images/Budfit.png" alt="">
+            <p>Stay fit & have fun</p>
+            <div class="links-projects">
+              <button target="_blank" onclick="location.href='https://github.com/luciamndz/budd-fit-challenge'">Github</button>
+              <button  target="_blank" onclick="location.href='https://www.buddfit.com/'">Go to page</button>
+            </div>
+          </div>
+          <div class="project">
+            <h3>Artsy</h3>
+            <img src="./Assets/Images/vang.jpg" alt="">
+            <p>Buy art, Sell art</p>
+            <div class="links-projects">
+              <button onclick="location.href='https://github.com/luciamndz/Artsy'">Github</button>
+            </div>
+          </div>
+          <div class="project">
+            <h3>Pokedex</h3>
+            <img src="./Assets/Images/pokedex.jpg" alt="">
+            <p>Gotta Catch'em All!</p>
+            <div class="links-projects">
+              <button onclick="location.href='https://github.com/MagikMaik/pokedex/'" target="_blank">Github</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card contact" id="contact">
+        <h1>Contact</h1>
+        <div id="contact-info">
+          <p><i class="fa-brands fa-whatsapp"></i> <Strong>+507 6321 2300</Strong></p>
+          <p><i class="fa-regular fa-envelope"></i> <strong>michael061195@gmail.com</strong></p>
+          <p><i class="fa-brands fa-github"></i> <strong>MagikMaik</strong></p>
+        </div>
+      </div>
+  </div>
+
+</body>
+</html>

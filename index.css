@@ -1,0 +1,217 @@
+html {
+  
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+
+  margin: auto;
+  justify-content: center;
+  width: 80%;
+}
+
+.navbar {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5rem;
+}
+#links-menu {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  transition: ease 0.6s;
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.card {
+
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15rem 10rem;
+  width: 75%;
+  gap: 5rem;
+}
+h1 {
+  font-size: 3rem;
+}
+.contact-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+button {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid grey;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  width: 110px;
+}
+
+button:hover {
+  transition: ease 0.8s;
+  background-color: white;
+  color: black;
+}
+
+#socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card a {
+  font-size: 25px;
+  margin-top: 2rem;
+}
+
+.img-avatar {
+  width: 22rem;
+  height: 22rem;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+
+p {
+  text-align: justify;
+  width: 500px;
+}
+/* ABOUT  */
+#about h1 {
+  font-size: 3rem;
+}
+
+.img-about {
+  width: 22rem;
+  height: 22rem;
+  object-fit: cover;
+  border-radius: 2rem;
+
+}
+
+#education {
+  border: 1px solid grey;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#education p {
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+
+
+
+/* EXPERIENCE */
+.experience{
+  display: block;
+  text-align: center;
+}
+
+.fullstack {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+
+.fullstack img {
+  width: 80px;
+  height: 80px;
+}
+
+.languages {
+  text-align: center;
+}
+
+.languages p {
+  text-align: center;
+  width: 100px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.projects {
+  display: block;
+}
+
+.project-display {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.project {
+  border: 1px solid grey;
+  width: 18rem;
+  text-align: center;
+  border-radius: 20px;
+  height: 25rem;
+}
+.project button {
+  margin-bottom: 18px;
+}
+.project img {
+  width: 85%;
+  border-radius: 1rem;
+  height: 60%;
+  object-fit: cover;
+
+}
+
+.project p {
+  width: 85%;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact {
+  display: block;
+  text-align: center;
+}
+
+#contact-info {
+  border: 1px solid grey;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact p {
+  font-size: 1rem;
+  width: 250px;
+  text-align: center;
+}

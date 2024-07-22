@@ -107,6 +107,7 @@ p {
 /* ABOUT  */
 #about h1 {
   font-size: 3rem;
+  text-align: center;
 }
 
 .img-about {

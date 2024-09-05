@@ -175,6 +175,7 @@ p {
 .project-display {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
 }
 
@@ -184,6 +185,7 @@ p {
   text-align: center;
   border-radius: 20px;
   height: 25rem;
+  margin-top: 20px;
 }
 .project button {
   margin-bottom: 18px;
